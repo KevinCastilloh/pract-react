@@ -1,34 +1,29 @@
 <<<<<<< HEAD
 # pract-react.js
 =======
-# React + TypeScript + Vite
+# React + TypeScript + Vite 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠️ Tech used
 
-Currently, two official plugins are available:
+* **React 18** - Biblioteca de UI.
+* **Vite** - Herramienta de construcción (Bundler) ultra rápida.
+* **TypeScript** - Tipado estático para un código más robusto.
+* **Bootstrap** - Framework de CSS para el diseño de componentes.
+* **Styled Components** (Opcional) - Estilos dinámicos desde JavaScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡 Conceptos Implementados
 
-## Expanding the ESLint configuration
+Durante el desarrollo, puse en práctica los siguientes pilares de React:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1.  **Componentes y Props:** Creación de componentes reutilizables como botones (`Button`), listas (`List`) y tarjetas (`Card`).
+2.  **Estado (`useState`):** Gestión del estado local para interactuar con la UI (como el contador de Minions o estados de carga).
+3.  **Renderizado Condicional:** Mostrar elementos solo cuando se cumplen ciertas condiciones (mensajes de "No hay elementos").
+4.  **Manejo de Eventos:** Captura de clics y paso de funciones entre componentes padres e hijos.
+5.  **Hooks:** Uso profundo de `useState` y depuración con *React Developer Tools*.
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Instalación y Uso
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
->>>>>>> 8962734 (Proyect React)
+Si quieres probar el proyecto localmente, sigue estos pasos:
+Clona el repositorio:
+   ```bash
+   git clone [https://github.com/KevinCastilloh/pract-react.git](https://github.com/KevinCastilloh/pract-react.git)
